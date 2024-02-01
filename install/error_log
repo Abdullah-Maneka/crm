@@ -1,0 +1,15 @@
+[14-Oct-2021 11:02:13 America/New_York] PHP Warning:  file_get_contents(testing&amp;domain=pm.vidcake.com): Failed to open stream: No such file or directory in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 165
+[14-Oct-2021 11:02:52 America/New_York] PHP Warning:  file_get_contents(testing&amp;domain=pm.vidcake.com): Failed to open stream: No such file or directory in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 165
+[14-Oct-2021 11:03:25 America/New_York] PHP Warning:  file_get_contents(testing&amp;domain=pm.vidcake.com): Failed to open stream: No such file or directory in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 165
+[14-Oct-2021 11:05:06 America/New_York] PHP Warning:  file_get_contents(testing&amp;domain=pm.vidcake.com): Failed to open stream: No such file or directory in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 165
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "host" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 6
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "dbuser" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 7
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "dbpassword" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 8
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "dbname" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 9
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "dbprefix" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 10
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "first_name" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 12
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "last_name" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 13
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "email" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 14
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "password" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 15
+[14-Oct-2021 11:23:13 America/New_York] PHP Warning:  Undefined array key "purchase_code" in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 17
+[14-Oct-2021 11:29:22 America/New_York] PHP Warning:  file_get_contents(testing&amp;domain=pm.vidcake.com): Failed to open stream: No such file or directory in /home/vidcqjei/pm.vidcake.com/install/do_install.php on line 165
