@@ -10,7 +10,9 @@ RUN apt-get update && \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
         libpng-dev \
-        libicu-dev
+        libicu-dev \
+        wget \
+        unzip
 
 # Configure and install PHP extensions
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg && \
@@ -18,6 +20,14 @@ RUN docker-php-ext-configure gd --with-freetype --with-jpeg && \
         mysqli \
         gd \
         intl
+
+# Install Composer globally
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Install PHPUnit globally
+RUN wget https://phar.phpunit.de/phpunit-9.phar && \
+    chmod +x phpunit-9.phar && \
+    mv phpunit-9.phar /usr/local/bin/phpunit
 
 # Set the timezone (replace "Your/Timezone" with your actual timezone)
 RUN echo "date.timezone = Your/Timezone" > /usr/local/etc/php/conf.d/timezone.ini
