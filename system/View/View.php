@@ -72,7 +72,7 @@ class View implements RendererInterface
 	 *
 	 * @var boolean
 	 */
-	protected $debug = false;
+	protected $debug = true;
 
 	/**
 	 * Cache stats about our performance here,
