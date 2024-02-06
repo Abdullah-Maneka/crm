@@ -26,17 +26,17 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                script {
+        //stage('Deploy') {
+            //steps {
+                //script {
                     // Add deployment steps if needed
                     // Example: kubectl apply -f your-deployment.yaml
                     // Deploy the application using the existing Docker Compose file
                     //sh 'docker-compose up -d'
                     
-                }
-            }
-        }
+                //}
+            //}
+        //}
     }
 
     post {
@@ -53,6 +53,6 @@ pipeline {
             //sh 'docker-compose up -d'
         //}
     //}
-  }
+    }
 
 }
