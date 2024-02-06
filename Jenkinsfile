@@ -8,6 +8,18 @@ pipeline {
             }
         }
 
+            
+        stage('Check Docker Compose Version') {
+            steps {
+                script {
+                    // Run docker-compose --version command
+                    def dockerComposeVersion = sh(script: 'docker-compose --version', returnStdout: true).trim()
+                    echo "Docker Compose Version: ${dockerComposeVersion}"
+                }
+            }
+        }
+    
+
         stage('Run Docker Compose') {
             steps {
                 script {
